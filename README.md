@@ -8,8 +8,7 @@ your Github.
 parameters.sh').
 3. With the previous point that also verifies that we have at least
 entered one parameter ('03helloalmenos1parameter.sh').
-4. And also separate each argument by "," ('04Hello
-separateparameters.sh').
+4. And also separate each argument by "," ('04Helloseparateparameters.sh').
 5. Make a script called 'subtraction' that performs the subtraction of 2
 entered parameters (you will have to be able to add decimal
 numbers, such as 2.2 - 3).
