@@ -22,11 +22,12 @@ like 2.2 * 3).
 and calculate the account balance.
 9. Make a script called 'appointmentsmenu.sh' that is an interface to the
 'appointments' script by displaying a menu with the following options:
-1. Add a new appointment.
-2. Search by patient name.
-3. Find appointments by starting hour.
-4. Search for appointments by end time.
-5. List appointments ordered by patient name. 6. List the
-appointments ordered by starting time. 7. Exit the program.
+    1. Add a new appointment.
+    2. Search by patient name.
+    3. Find appointments by starting hour.
+    4. Search for appointments by end time.
+    5. List appointments ordered by patient name. 
+    6. List the appointments ordered by starting time. 
+    7. Exit the program.
 10. Make a script called 'appointmentsflags.sh' to be able to use the
 script 'appointments' via CLI.
