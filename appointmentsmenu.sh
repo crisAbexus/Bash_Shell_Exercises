@@ -3,7 +3,7 @@
 echo "WELCOME TO APPOINNTMENTS MENU"
 
 op=""
-
+record=$record
 while :
 do
     #Clean the terminal
@@ -20,11 +20,14 @@ do
     echo "6. List the appointments ordered by starting time. "
     echo "7. Exit the program."
 
-    read -n1 -p "choose an opcion [1-7]: " op
+    echo "the record ${record[*]}"
+    read -n1 -p "**choose an opcion [1-7]: " op
     
     if [[ $op ]]; then
         export op
-        ./appointments.sh
+        export record
+        record=$( ./appointments.sh )
+        echo "the agenda is returned as: ${record}"
         sleep 3
     fi
 done
